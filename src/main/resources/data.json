@@ -1,0 +1,136 @@
+{
+  "name" : "郑涤非",
+  "examNum" : "123456789",
+  "IDCard" : "42070400000000011",
+  "carModel" : "B2",
+  "drivingSchool" : "车友",
+  "busyType" : "驾照",
+  "examDate" : "2017.3.5",
+  "orderCount" : "5",
+  "firstExamTime" : "am 10:52",
+  "firstExamScores" : "98",
+  "userImg" : {
+    "type" : "image",
+    "url" : "d:\\zdf.png"
+  },
+  "pieReport" : {
+    "type" : "pie",
+    "title" : "人员分布情况",
+    "width" : 1000,
+    "height" : 800,
+    "value" : {
+      "管理人员" : 25,
+      "市场人员" : 20,
+      "开发人员" : 40,
+      "其他人员" : 10
+    }
+  },
+  "barReport" : {
+    "type" : "bar",
+    "title" : "按月统计生成计划情况",
+    "xAxis" : "月份",
+    "yAxis" : "值",
+    "style": {
+        "background" : "#000000"
+    },
+    "category" : ["1月","2月","3月","4月"],
+    "value" : [{
+      "category" : "1月",
+      "series" : "生成量",
+      "value" : 500
+    },{
+      "category" : "2月",
+      "series" : "生成量",
+      "value" : 400
+    },{
+      "category" : "3月",
+      "series" : "生成量",
+      "value" : 380
+    },{
+      "category" : "4月",
+      "series" : "生成量",
+      "value" : 450
+    },{
+      "category" : "1月",
+      "series" : "需求量",
+      "value" : 640
+    },{
+      "category" : "2月",
+      "series" : "需求量",
+      "value" : 580
+    },{
+      "category" : "3月",
+      "series" : "需求量",
+      "value" : 320
+    },{
+      "category" : "4月",
+      "series" : "需求量",
+      "value" : 270
+    }]
+  },
+  "lineReport" : {
+    "type" : "line",
+    "title" : "夏季碳排量情况",
+    "xAxis" : "月份",
+    "yAxis" : "值",
+    "style": {
+      "background" : "#ffffff"
+    },
+    "value" : [{
+      "category" : "5月",
+      "series" : "碳排量",
+      "value" : 800
+    },{
+      "category" : "6月",
+      "series" : "碳排量",
+      "value" : 1000
+    },{
+      "category" : "7月",
+      "series" : "碳排量",
+      "value" : 200
+    },{
+      "category" : "8月",
+      "series" : "碳排量",
+      "value" : 750
+    }]
+  },
+  "areaReport" : {
+    "type" : "area",
+    "title" : "08年图书销售量排名",
+    "xAxis" : "按季度",
+    "yAxis" : "销量",
+    "value" : [{
+      "category" : "第一季度",
+      "series" : "java",
+      "value" : 24
+    },{
+      "category" : "第二季度",
+      "series" : "java",
+      "value" : 45
+    },{
+      "category" : "第三季度",
+      "series" : "java",
+      "value" : 62
+    },{
+      "category" : "第四季度",
+      "series" : "java",
+      "value" : 14
+    },{
+      "category" : "第一季度",
+      "series" : "C++",
+      "value" : 80
+    },{
+      "category" : "第二季度",
+      "series" : "C++",
+      "value" : 25
+    },{
+      "category" : "第三季度",
+      "series" : "C++",
+      "value" : 40
+    },{
+      "category" : "第四季度",
+      "series" : "C++",
+      "value" : 32
+    }]
+  }
+}
