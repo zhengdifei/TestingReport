@@ -175,6 +175,10 @@ public class DocUtil {
                     }else{
                         System.err.println("不支持的图标类型 ：" + type);
                     }
+                }else if(datas.get(key) instanceof List){
+                    List<Map<String,Object>> subObj = (List<Map<String,Object>>) datas.get(key);
+                    //循环遍历
+                    doc.getMailMerge().executeWithRegions(new MapMailMergeDataSource(subObj,key));
                 }else{
                     System.err.println("不支持的数据结构，key ：" + key);
                 }

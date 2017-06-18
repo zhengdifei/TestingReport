@@ -33,7 +33,6 @@
     "style": {
         "background" : "#000000"
     },
-    "category" : ["1月","2月","3月","4月"],
     "value" : [{
       "category" : "1月",
       "series" : "生成量",
@@ -132,5 +131,22 @@
       "series" : "C++",
       "value" : 32
     }]
-  }
+  },
+  "employees" : [{
+    "name" : "zdf1",
+    "age" : 20,
+    "gender" : "男"
+  },{
+    "name" : "zdf2",
+    "age" : 18,
+    "gender" : "女"
+  },{
+    "name" : "zdf3",
+    "age" : 25,
+    "gender" : "男"
+  },{
+    "name" : "zdf4",
+    "age" : 30,
+    "gender" : "女"
+  }]
 }

@@ -63,7 +63,8 @@ public class RunReport {
 
             //输入数据流，输入数据必须是json格式数据
             //读取资源文件或者jar包中data.json文件
-            InputStream is = RunReport.class.getClassLoader().getResourceAsStream("data.json");
+            InputStream is = null;//RunReport.class.getClassLoader().getResourceAsStream("data.json");
+            //InputStream is = RunReport.class.getClassLoader().getResourceAsStream("data.json");
             if(is == null){
                 is = new FileInputStream("data.json");
             }
